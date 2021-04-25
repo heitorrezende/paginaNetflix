@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<!-- META -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- TÍTULO -->
+	<title>Netflix</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="style.css" />
+
+	<!-- FAVICON -->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" /> 
+</head>
+
+<body>
+	<article id="inicial" >
+	<!-- CABEÇALHO -->
+	<header class="topo">
+		<figure>
+			<img src="assets/img/logo.svg" alt="Netflix">
+			<figcaption>Netflix</figcaption>
+		</figure>
+	</header>
+
+	<!-- PÁGINA INICIAL -->
+	<div class="pg-home">
+		
+		<section>
+
+			<header>
+				<h2>Quem está assistindo?</h2>
+			</header>
+
+			
+			<ul>
+				
+				
+				<li class="Gabriel ">
+					<figure>
+						<img src="assets/img/avatar.png" alt="Gabriel">
+						<figcaption>Gabriel</figcaption>
+					</figure>
+
+					<h3>Gabriel</h3>
+				</li>
+				
+				
+				<li class="Maria ">
+					<figure>
+						<img src="assets/img/avatar1.png" alt="Maria">
+						<figcaption hidden>Maria</figcaption>
+					</figure>
+
+					<h3>Maria</h3>
+				</li>   
+				
+				
+				<li class="Renato">
+					<figure>
+						<img src="assets/img/avatar2.png" alt="Renato">
+						<figcaption>Renato</figcaption>
+					</figure>
+
+					<h3>Renato</h3>
+				</li>
+
+				
+				<li class="addPerfil">
+					<figure>
+						<img id="plus" src="assets/img/plus-sign.png" alt="Adicionar perfil">
+						<figcaption>Adicionar perfil</figcaption>
+					</figure>
+
+					<h3>Adicionar perfil</h3>
+				</li>
+
+			</ul>
+
+			<footer>
+				<button>Gerenciar Perfis</button>
+			</footer>
+
+		</section>
+
+	</div>
+</article>
+
+<article id="conteudo" class="hide">
+    <section class="background-image">
+        <header>
+            
+            <div class="container">
+                <div class="flex">
+                    <div class="flex-column">
+                        <a href="#" class="logo">
+                            <figure>
+                                <img src="./assets/img/logo.svg" alt="Logo netflix">
+                                <figcaption class="hidden">Logo netflix</figcaption>
+                                
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="flex-column">
+                        <nav class="dropdown">
+                            <button class="abrir-submenu-mobile-element">Navegar</button>
+                            <div class="menu-content">
+                            <ul>
+                                <li class="item-ativo"><a href="#">Início</a></li>
+                                <li><a href="#">Séries</a></li>
+                                <li><a href="#">Filmes</a></li>
+                                <li><a href="#">Bombando</a></li>
+                                <li><a href="#">Minha lista</a></li>
+                            </ul>
+                        </div>
+                        </nav>
+                    </div>
+                    <div class="flex-column">
+                        <div class="menu-usuario">
+                            <span class="pesquisar"><i class="fas fa-search"></i></span>
+                            <span class="usuarioAtivo"><img src="assets/img/user.png" alt="Ícone usuário"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main class="pagina-inicial">
+            <section class="secao-destaque">
+                <div class="container">
+                    <article class="secao-destaque-conteudo">
+                        <figure>
+                            <img src="assets/img/movies/tedlogo.webp" alt="Título seção destaque">
+                            <figcaption class="hidden">Título seção destaque</figcaption>
+                        </figure>
+                        <p>Ela o amava e queria acreditar nele. Mas a verdade era monstruosa demais para ser ignorada.</p>
+                        <div class="secao-destaque-buttons">
+                            <button class="assistir">Assistir</button>
+                            <button class="mais-informacoes">Mais informações</button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </section>
+            
+            <section class="secao-catalogo" id="secao-continuar-assistindo">
+                <div class="container">
+                    <h2 class="secao-catalogo-titulo">Continuar assistindo</h2>
+                    <ul class="flex">
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/papel.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/amigas.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/papel.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/amigas.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/papel.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/amigas.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="secao-catalogo" id="secao-minha-lista">
+                <div class="container">
+                    <h2 class="secao-catalogo-titulo">Minha lista</h2>
+                    <ul class="flex">
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/amigas.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/gg.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/amigas.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/gg.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/amigas.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/gg.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="secao-catalogo" id="secao-originais">
+                <div class="container">
+                    <h2 class="secao-catalogo-titulo">Originais Netflix</h2>
+                    <ul class="flex">
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/gg.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/papel.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/gg.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/papel.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/gg.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/papel.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="secao-catalogo" id="secao-originais-desktop">
+                <div class="container">
+                    <h2 class="secao-catalogo-titulo">Originais Netflix</h2>
+                    <ul class="flex">
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/papel2.webp" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/good.webp" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/papel2.webp" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/good.webp" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/papel2.webp" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/good.webp" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="secao-catalogo" id="secao-familia">
+                <div class="container">
+                    <h2 class="secao-catalogo-titulo">Programas para toda a família</h2>
+                    <ul class="flex">
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/gg.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/amigas.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/gg.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/amigas.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/gg.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex-column">
+                            <a href="#">
+                                <figure>
+                                    <img src="assets/img/movies/amigas.jpg" alt="Nome programa">
+                                    <figcaption class="hidden">Nome programa</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    
+        <footer>
+            <div class="container">
+                
+                        <nav class="links">
+                            
+                               <a href="#">Centro de ajuda</a>
+                               <a href="#">Termos de uso</a>
+                               <a href="#">Privacidade</a>
+                               <a href="#">Entre em contato</a>
+                            
+                        </nav>
+                    </div>
+                    <div class="flex-column">
+                        <ul class="redes-sociais">
+                            <li><a href="#"><img src="assets/img/facebook-app-logo.svg" alt="Facebook"></a></li>
+                            <li><a href="#"><img src="assets/img/instagram-symbol.svg" alt="Instagram"></a></li>
+                            <li><a href="#"><img src="assets/img/twitter.svg" alt="Twitter"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 1997-2021 Netflix, Inc.</p>
+                </div>
+            </div>
+        </footer>
+</article>
+<script src="script.js"></script>
+</body>
+</html>
